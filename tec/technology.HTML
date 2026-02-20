@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="technology.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pompiere&display=swap" rel="stylesheet">
+    <title>home</title>
+</head>
+
+<body>
+    <div class="contener">
+                <nav>
+            <img class="logo" src="logo.svg" alt="">
+            <div class="line"></div>
+            <ul>
+                <li class="home"><a href="home.html">HOME</a></li>
+                <li class="DESTNATION"><a href="destination.html">DESTNATION</a></li>
+                <li class="CREW"><a href="crew.html">CREW</a></li>
+                <li class="TCHNOLGY"><a href="technology.html">TCHNOLGY</a></li>
+            </ul>
+
+            <img id="open" onclick="openn()" class="menu" src="icon-hamburger.svg" alt="">
+            <img id="close" onclick="closee()" class="menu" src="icon-close.svg" alt="">
+        </nav>
+                <div id="menu" class="content-menu">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="destination.html">DESTNATION</a></li>
+                    <li><a href="crew.html">CREW</a></li>
+                    <li><a href="technology.html">TCHNOLGY</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="content-left">
+                    <div class="button">
+                    <button onclick="onee()" id="one" type="button">1</button>
+                    <button onclick="twoo()" id="tow" type="button">2</button>
+                    <button onclick="threee()" id="three" type="button">3</button>
+                </div>
+                <div class="text">
+                    <h2 id="h2">THE TECHNOLOGY</h2>
+                    <h1 id="h1">LAUNCH VEHICLE</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et culpa sapiente, sequi consequuntur delectus molestiae distinctio, ullam ad voluptatibus reiciendis suscipit tempora sit, commodi accusantium nam porro provident laboriosam enim deserunt qui minus quidem corporis? Voluptate nisi ullam deleniti in! Odio dolore corporis nisi iure maxime, harum mollitia maiores neque!</p>
+                </div>
+                </div>
+                <div class="content-right">
+                    <img id="img" src="image-launch-vehicle-portrait.jpg" alt="">
+                </div>
+            </div>
+    <script src="technology.js"></script>
+        </div>
